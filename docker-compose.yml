@@ -1,0 +1,9 @@
+version: '3'  # You can adjust the version based on your Docker Compose version
+
+services:
+  my_app:
+    image: nodejs2023
+    container_name: reactjs52
+    ports:
+      - "8081:80"
+    restart: always  # Automatically restart the container if it stops
